@@ -9,11 +9,13 @@ This project implements and compares different AI-based search algorithms to sol
 - ✅ Implemented Solvers:
   - Depth-First Search (DFS / Backtracking)
   - Breadth-First Search (BFS)
+  - Greedy Search
+  - A\* Search
 - 📊 Performance metrics:
   - Execution time
   - Nodes explored
 - 🧪 Evaluation on multiple difficulty levels
-- 🔄 Easily extendable to Greedy and A\* in future
+  
 
 ---
 
