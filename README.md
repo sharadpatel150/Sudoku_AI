@@ -48,3 +48,5 @@ sudoku_ai_solver/
 ## ✍️ Author
 - Sharadkumar Patel 
 - Urvang Patel
+
+## Demo: https://youtu.be/I2dP5b-hZUU
