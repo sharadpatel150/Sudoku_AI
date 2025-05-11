@@ -28,12 +28,49 @@ This project implements and compares different AI-based search algorithms to sol
 
 ### 📂 Folder Structure
 
-sudoku_ai_solver/  
-├── main.py  
-├── utils/  
-│       └── board_loader.py  
-├── puzzles/  
-│       └── easy1.csv  
+```bash
+sudoku_ai_solver/
+├── main.py                         # Entry point with CLI
+├── puzzles/                        # Folder with sample .csv puzzles
+│   ├── easy1.csv
+│   ├── medium1.csv
+│   └── ...
+├── solver/                         # Folder with AI solvers
+│   ├── dfs_solver.py
+│   ├── bfs_solver.py
+│   ├── greedy_solver.py
+│   └── astar_solver.py
+├── utils/                          # Utility functions
+│   └── board_loader.py
+├── README.md
+```
+
+## 🧩 Input Format (CSV)
+- Each Sudoku puzzle is a .csv file containing 9 rows and 9 columns.
+- Use 0 to indicate an empty cell.
+- Example:
+
+```bash
+5,3,0,0,7,0,0,0,0  
+6,0,0,1,9,5,0,0,0  
+0,9,8,0,0,0,0,6,0  
+...
+```
+
+## How It Works
+1. Run the script:
+```bash
+python main.py
+```
+
+2. Select the solver:
+```bash
+Select Solver:
+1. DFS
+2. BFS
+3. Greedy
+4. A\*
+```
 
 
 ## 📊 Evaluation Metrics
