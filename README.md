@@ -69,7 +69,7 @@ Select Solver:
 1. DFS
 2. BFS
 3. Greedy
-4. A\*
+4. A*
 ```
 
 
